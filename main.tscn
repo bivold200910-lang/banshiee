@@ -1,22 +1,20 @@
 [gd_scene format=3 uid="uid://b5mf7yghgs8oh"]
 
 [ext_resource type="Script" uid="uid://kn7x0ffjxsja" path="res://banshieescript.gd" id="1_0xm2m"]
-[ext_resource type="Texture2D" uid="uid://cqovxk88nv5yh" path="res://assets/banshiee.png.png" id="1_ig7tw"]
+[ext_resource type="Texture2D" uid="uid://b1eyepqfpeuvx" path="res://assets/Pixel_white_cat_ghost-removebg-preview.png" id="2_0xm2m"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2bnif"]
-size = Vector2(18, 108.26923)
+size = Vector2(292.5, 303.06732)
 
 [node name="Main" type="Node2D" unique_id=1107837421]
-scale = Vector2(1, 0.13)
 
 [node name="Banshiee" type="Area2D" parent="." unique_id=789359758]
 script = ExtResource("1_0xm2m")
 
 [node name="Banshieepic" type="Sprite2D" parent="Banshiee" unique_id=1265447944]
-position = Vector2(3.8146973e-06, 2.2888184e-05)
-scale = Vector2(0.419, 3)
-texture = ExtResource("1_ig7tw")
+position = Vector2(576, 264)
+texture = ExtResource("2_0xm2m")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Banshiee" unique_id=885880499]
-position = Vector2(-1, -0.2884612)
+position = Vector2(584, 256)
 shape = SubResource("RectangleShape2D_2bnif")

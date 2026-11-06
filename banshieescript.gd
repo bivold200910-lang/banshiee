@@ -1,7 +1,7 @@
 extends Area2D
 
 func _ready() -> void:
-	pass
+	print("HELLO FROM BANSHIEE!")
 
 func _input_event(_viewport: Viewport, event: InputEvent, _shape_idx: int) -> void:
 	if event is InputEventMouseButton:
