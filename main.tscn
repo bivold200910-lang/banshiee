@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://b5mf7yghgs8oh"]
 
 [ext_resource type="Script" uid="uid://kn7x0ffjxsja" path="res://banshieescript.gd" id="1_0xm2m"]
-[ext_resource type="Texture2D" uid="uid://b1eyepqfpeuvx" path="res://assets/Pixel_white_cat_ghost-removebg-preview.png" id="2_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://b1eyepqfpeuvx" path="res://assets/banshiee.png" id="2_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://ik8oqrabdjo4" path="res://assets/dialog.png" id="3_h2yge"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2bnif"]
 size = Vector2(292.5, 303.06732)
@@ -14,6 +15,29 @@ script = ExtResource("1_0xm2m")
 [node name="Banshieepic" type="Sprite2D" parent="Banshiee" unique_id=1265447944]
 position = Vector2(576, 264)
 texture = ExtResource("2_0xm2m")
+
+[node name="Sprite2D" type="Sprite2D" parent="Banshiee/Banshieepic" unique_id=1065429681]
+position = Vector2(240, -160)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_h2yge")
+
+[node name="Label" type="Label" parent="Banshiee/Banshieepic/Sprite2D" unique_id=685422952]
+anchors_preset = -1
+anchor_left = 0.13000001
+anchor_right = 0.83900005
+anchor_bottom = 0.79600006
+offset_left = -307.47
+offset_top = -128.0
+offset_right = -179.44101
+offset_bottom = -23.888031
+theme_override_colors/font_color = Color(0.011764706, 0.011764706, 0.011764706, 1)
+theme_override_font_sizes/font_size = 65
+text = "Hieesss I am
+Banshie
+
+"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Banshiee" unique_id=885880499]
 position = Vector2(584, 256)

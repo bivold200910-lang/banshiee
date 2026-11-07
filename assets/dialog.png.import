@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b1eyepqfpeuvx"
-path="res://.godot/imported/Pixel_white_cat_ghost-removebg-preview.png-71f4ee4b40613c0183e0eac4e7f5f8cc.ctex"
+uid="uid://ik8oqrabdjo4"
+path="res://.godot/imported/dialog.png-7b42b700953734d21faa6479c74ce828.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Pixel_white_cat_ghost-removebg-preview.png"
-dest_files=["res://.godot/imported/Pixel_white_cat_ghost-removebg-preview.png-71f4ee4b40613c0183e0eac4e7f5f8cc.ctex"]
+source_file="res://assets/dialog.png"
+dest_files=["res://.godot/imported/dialog.png-7b42b700953734d21faa6479c74ce828.ctex"]
 
 [params]
 
