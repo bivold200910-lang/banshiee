@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://kn7x0ffjxsja" path="res://banshieescript.gd" id="1_0xm2m"]
 [ext_resource type="Texture2D" uid="uid://6axbo1bq32bd" path="res://assets/characters/ui/bars/banshiee_health_bar.png" id="1_4c57u"]
+[ext_resource type="Script" uid="uid://bve4cp7xgkhv5" path="res://control.gd" id="1_ycdy4"]
 [ext_resource type="Texture2D" uid="uid://dtle5vvfisp6q" path="res://assets/Spookybg.jpg" id="2_1bvp3"]
 [ext_resource type="Texture2D" uid="uid://c4dtu7cn28r7i" path="res://assets/characters/ui/bars/banshiee_hunger_bar.png" id="2_efxa6"]
 [ext_resource type="Texture2D" uid="uid://wa1l8b0lq8lo" path="res://assets/characters/spritesheets/banshiee_dead.png" id="3_1bvp3"]
@@ -641,8 +642,10 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+script = ExtResource("1_ycdy4")
 
 [node name="Healthbar" type="AnimatedSprite2D" parent="CanvasLayer/Control" unique_id=1996306541]
+texture_filter = 1
 position = Vector2(95.99999, 616)
 rotation = 0.0015236735
 scale = Vector2(1.211859, 1.2325907)
@@ -651,6 +654,7 @@ frame = 5
 frame_progress = 0.89547086
 
 [node name="Hungerbar" type="AnimatedSprite2D" parent="CanvasLayer/Control" unique_id=133399501]
+texture_filter = 1
 position = Vector2(264, 616)
 scale = Vector2(1.2000012, 1.12)
 sprite_frames = SubResource("SpriteFrames_g4leu")
@@ -658,6 +662,7 @@ frame = 5
 frame_progress = 0.9639801
 
 [node name="Moodbar" type="AnimatedSprite2D" parent="CanvasLayer/Control" unique_id=71840067]
+texture_filter = 1
 position = Vector2(432.00003, 616)
 scale = Vector2(1.16, 1.2)
 sprite_frames = SubResource("SpriteFrames_nrnul")
@@ -665,6 +670,7 @@ frame = 4
 frame_progress = 0.36790702
 
 [node name="Lovebar" type="AnimatedSprite2D" parent="CanvasLayer/Control" unique_id=1649278037]
+texture_filter = 1
 position = Vector2(592, 616)
 scale = Vector2(1.1599988, 1.1199988)
 sprite_frames = SubResource("SpriteFrames_4c57u")
@@ -672,6 +678,7 @@ frame = 5
 frame_progress = 0.13394815
 
 [node name="energybar" type="AnimatedSprite2D" parent="CanvasLayer/Control" unique_id=1767025220]
+texture_filter = 1
 position = Vector2(744, 616)
 scale = Vector2(1.1599976, 1.12)
 sprite_frames = SubResource("SpriteFrames_efxa6")
